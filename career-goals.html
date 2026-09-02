@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Daniel Shishmanov | Career Goals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+
+        <div class="brand">
+            <span class="logo">DS</span>
+            <div class="brand-text">
+                <h2>Daniel Shishmanov</h2>
+                <p>Software Engineering Student</p>
+            </div>
+        </div>
+        <nav class="navigation">
+            <a href="resume.html">Resume</a>
+            <a href="cover-letter.html">Cover Letter</a>
+            <a href="career-goals.html">Career Goals</a> 
+        </nav>
+    </header>
+     <main class="career-container">
+        <section class="career-intro">
+            <h1>My Career Goals</h1>
+            <p class="career-subtitle">
+                Building software that solves real-world problems and creates meaningful impact.
+            </p>
+            <section class="goals-grid">
+
+                <article class="goal-card">
+                    <h3>Short Term</h3>
+                    <p>Complete my Software Engineering degree at
+                       Western Governors University, continue strengthening my HTML,
+                       CSS, JavaScript, and programming skills, and build a strong 
+                       portfolio of practical projects.
+                    </p>
+                </article>
+                <article class="goal-card">
+                    <h3>Early Career</h3>
+                    <p>
+                        Begin my professional career as a Software Developer or Software Engineer, 
+                        contribute to real-world applications, and gain hands-on experience working with
+                        development teams and modern software tools.
+                    </p>
+                </article>
+                <article class="goal-card">
+                    <h3>Growth</h3>
+                    <p>
+                        Expand my skills in full-stack and backend development, strengthen my knowledge of databases,
+                        cloud technologies, version control, and scalable software systems, and continue learning
+                        new technologies.
+                    </p>
+                </article>
+                <article class="goal-card">
+                    <h3>Long Term</h3>
+                    <p>
+                        Become an experienced Software Engineer capable of designing and building
+                        reliable applications, contributing to larger technical projects , and working
+                        in a flexible professional environment with opportunities for continuous growth.
+                    </p>
+                </article>
+            </section>
+            <hr>
+
+            <section class="media-grid">
+                <article class="media-card">
+                    <h3>My Development Workspace</h3>
+                    <img src="images/workspace.jpeg" alt="Software development workspace" class="career-image">
+                </article>
+                <article class="media-card">
+                    <h3>Career Introduction</h3>
+                    <audio controls>
+                        <source src="audio/career-introduction.mp3" type="audio/mpeg">
+                    </audio>
+                </article>
+                <article class="media-card">
+                    <h3>Career Goals Video</h3>
+                    <video controls class="career-video">
+                        <source src="video/career-goals.mp4" type="video/mp4">
+                    </video>
+                </article>
+            </section>
+            <hr>
+            <section class="contact-section">
+                <h2>Let's connect</h2>
+                <p class="contact-intro">
+                    I would be happy to connect with employers, professionals, and others
+                    interested in software development opportunities.
+                </p>
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" class="contact-form">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required>
+
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required>
+
+                    <label for="company-name">Company Name</label>
+                    <input type="text" id="company-name" name="companyName">
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                    
+                    <fieldset class="contact-time">
+                        <legend>Best Contact Time</legend>
+                         
+                        <div>
+                           <input type="radio" id="am" name="contactTime" value="a.m.">
+                           <label for="am">am.</label>
+                        </div>
+                        <div>
+                           <input type="radio" id="pm" name="contactTime" value="p.m.">
+                           <label for="pm">p.m.</label>
+                        </div>
+                         
+                        <div>
+                           <input type="radio" id="anytime" name="contactTime" value="anytime">
+                           <label for="anytime">anytime</label>
+                        </div>
+
+
+
+                        <label for="contact-method">Preferred Contact Method</label>
+                        <select id="contact-method" name="contactMethod">
+                            <option value="phone">Phone</option>
+                            <option value="email">Email</option>
+                            <option value="text">Text</option>
+                        </select>
+
+                        <button type="submit">Send Message</button>
+                    </fieldset>
+                </form>
+            </section>
+        </section>
+     </main>
+
+     <footer>© 2026 Daniel Shishmanov | Software Engineering Portfolio</footer>
+</body>
+</html>

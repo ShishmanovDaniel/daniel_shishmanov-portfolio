@@ -1,0 +1,455 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.main-header {
+    padding: 18px 40px;
+    border-bottom: 1px solid darkslategray;
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    color: dodgerblue;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.brand-text h2 {
+    margin: 0;
+    font-size: 18px;
+    color: white;
+}
+
+.brand-text p {
+    margin: 2px 0 0;
+    color: lightgray;
+    font-size: 12px;
+}
+
+.navigation a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 13px;
+}
+
+.navigation a:hover {
+    color: dodgerblue;
+}
+
+.resume-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 40px;
+}
+
+.profile-image {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid dodgerblue;
+}
+
+.profile text h1 {
+    margin: 0;
+    color: white;
+    font-size: 32px;
+}
+
+.profile text h2 {
+    color: dodgerblue;
+    font-size: 20px;
+    margin: 5px 0 12px;
+}
+
+.profile-text p {
+    color: lightgray;
+    line-height: 1.6;
+}
+
+.date-card {
+    padding: 18px;
+    border: 1px solid darkslategray;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#current-date {
+    color: dodgerblue;
+    font-style: italic;
+}
+
+.contact-row {
+    margin-top: 20px;
+    padding: 12px 0;
+}
+
+.contact-row span {
+    color: lightgray;
+    margin-right: 25px;
+    font-size: 13px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid darkslategray;
+    margin: 25px 0;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.info-card {
+    padding: 10px 20px;
+    border-right: 1px solid darkslategray;
+}
+
+.info-card:last-child {
+    border-right: none;
+}
+
+.info-card h3 {
+    color: white;
+    margin-top: 0;
+}
+
+.info-card p {
+    color: lightgray;
+    line-height: 1.6;
+}
+
+.info-card ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.info-card li {
+    color: lightgray;
+    margin-bottom: 5px;
+}
+
+.info-card h4 {
+    color: dodgerblue;
+}
+
+.bottom-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.experience-section h2, .table-section h2 {
+    color: white;
+}
+
+.experience-item h3 {
+    color: dodgerblue;
+}
+
+.experience-item p, .experience-item li {
+    color: lightgray;
+    line-height: 1.5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption {
+    color: lightgray;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid darkslategray;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: darkslategray;
+    color: white;
+}
+
+td {
+    color: lightgray;
+}
+
+.cover-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 35px 40px;
+}
+
+.cover-grid {
+    display: grid;
+    grid-template-columns: 290
+    
+    
+    
+    px 1fr;
+    gap: 35px;
+}
+
+.cover-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar-card {
+    border: 1px solid darkslategray;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.sidebar-card h3 {
+    color: white;
+    margin-top: 0;
+}
+
+.sidebar-card p, .sidebar-card span {
+    color: lightgray;
+}
+
+.cover-letter-content h2 {
+    color: dodgerblue;
+    margin-top: 0;
+}
+
+.cover-letter-content p {
+    color: lightgray;
+    line-height: 1.7;
+}
+
+mark{
+    background-color: gold;
+    color: black;
+}
+
+.cover-letter-content strong {
+    color: dodgerblue;
+}
+
+.cover-letter-content em {
+    color: white;
+    font-style: italic;
+}
+
+.signature {
+    color: dodgerblue;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.quote-section {
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid darkslategray;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.quote-section p {
+    color: dodgerblue;
+    font-style: italic;
+}
+
+footer {
+    border-top: 1px solid darkslategray;
+    padding: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+footer p {
+    color: lightgray;
+    font-size: 12px;
+    margin: 0;
+}
+
+.career-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 35px 40px;
+}
+
+.career.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.career-intor h1 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+
+.career-subtitle {
+    color: lightgray;
+
+}
+
+.goals-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.goal-card {
+    border: 1px solid darkslategray;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.goal-card h3 {
+    color: dodgerblue;
+    margin-top: 0;
+}
+
+.goal-card p {
+    color: lightgray;
+    line-height: 1.5;
+
+}
+
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.media-card {
+    height: 240px;
+    padding: 15px;
+    border: 1px solid darkslategray;
+    border-radius: 8px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+    
+
+.media-card h3 {
+    color: dodgerblue;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+
+.career-image {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+}
+
+
+
+.media-card audio {
+    width: 100%;
+    margin-top: 55px;
+}
+
+.career-video {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.contact-section {
+    max-width: 750px;
+    margin: 30px auto;
+
+}
+.contact-section h2 {
+    color: dodgerblue;
+    text-align: center;
+}
+
+.contact-intro {
+    color: lightgray;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact-form {
+    border: 1px solid darkslategray;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.contact-form label {
+    color: white;
+}
+
+.contact-form input[type="text"], 
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea,
+.contact-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid darkslategray;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-time {
+    border: 1px solid darkslategray;
+    padding: 15px;
+    margin-bottom: 15px;
+
+}
+
+.contact-time legend {
+    color: dodgerblue;
+}
+
+
+.contact-time label {
+    margin-right: 20px;
+}
+
+.contact-form button {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: royalblue;
+}
+
+
+
+
